@@ -1,0 +1,14 @@
+[package]
+name = "asgard-screensaver"
+version = "0.9.0"
+edition = "2021"
+
+[dependencies]
+ctrlc = "3.4.2"
+console = "0.15.8"
+rand = "0.8.5"
+term_size = "1.0.0-beta1"
+
+[[bin]]
+name = "main"
+path = "main.rs"
